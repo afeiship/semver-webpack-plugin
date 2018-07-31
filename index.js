@@ -20,8 +20,9 @@ function SemverWebpackPlugin(inOptions) {
  * Implement the plugin
  */
 SemverWebpackPlugin.prototype.apply = function (compiler) {
+  var self = this;
   compiler.plugin('compile', function (compilation) {
-    return process(this.options);
+    return process(self.options);
   });
 };
 
