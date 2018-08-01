@@ -1,6 +1,10 @@
 var objectAssign = require('object-assign');
 var process = require('./lib/process');
 
+var RETURN_VALUE = function(inValue){
+  return this.inc(inValue, 'prepatch','alpha');
+};
+
 /**
  * Configure the plugin
  * @param {Options} inOptions
@@ -9,7 +13,7 @@ function SemverWebpackPlugin(inOptions) {
   var options = objectAssign({
     files: ['./package.json'],
     enabled: undefined,
-    incArgs: ['prepatch']
+    callback: RETURN_VALUE
   }, inOptions);
 
   this.options = options;
