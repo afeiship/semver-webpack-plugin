@@ -31,9 +31,9 @@ plugiins:[
 ## newVersion: 1.0.1-alpha.0
 ```
 ```js
-// semver.inc('1.0.0', 'prepatch','alpha')
+// semver.inc('1.0.0', 'prerelease','alpha')
 function(inVersion){
-  return this.inc(inVersion, 'prepatch','alpha');
+  return this.inc(inVersion, 'prerelease','alpha');
 }
 ```
 
