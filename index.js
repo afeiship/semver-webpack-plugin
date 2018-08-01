@@ -7,7 +7,7 @@ var process = require('./lib/process');
  */
 function SemverWebpackPlugin(inOptions) {
   var options = objectAssign({
-    target: './package.json',
+    files: ['./package.json'],
     enabled: undefined,
     incArgs: ['prepatch']
   }, inOptions);

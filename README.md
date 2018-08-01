@@ -16,3 +16,11 @@ plugiins:[
   new SemverWebpackPlugin({ enabled: true })
 ]
 ```
+
+## options:
+| Name    | Default            | Description            |
+| ------- | ------------------ | ---------------------- |
+| files   | ['./package.json'] | Default files array.   |
+| enabled | true               | If enable this plugin. |
+| incArgs | ['prepatch']       | See `semver`           |
+
