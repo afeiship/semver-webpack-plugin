@@ -2,7 +2,7 @@ var objectAssign = require('object-assign');
 var process = require('./lib/process');
 
 var RETURN_VALUE = function(inValue){
-  return this.inc(inValue, 'prepatch','alpha');
+  return this.inc(inValue, 'prerelease','alpha');
 };
 
 /**
