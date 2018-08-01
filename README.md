@@ -18,11 +18,11 @@ plugiins:[
 ```
 
 ## options:
-| Name     | Default                                  | Description            |
-| -------- | ---------------------------------------- | ---------------------- |
-| files    | ['./package.json']                       | Default files array.   |
-| enabled  | true                                     | If enable this plugin. |
-| callback | semver.inc(inValue, 'prepatch','alpha'); | See `semver`           |
+| Name     | Type     | Default                                  | Description            |
+| -------- | -------- | ---------------------------------------- | ---------------------- |
+| files    | Array    | ['./package.json']                       | Default files array.   |
+| enabled  | Boolean  | true                                     | If enable this plugin. |
+| callback | Function | semver.inc(inValue, 'prepatch','alpha'); | See `semver`           |
 
 
 ## development callback:
