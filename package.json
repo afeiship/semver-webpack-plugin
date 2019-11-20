@@ -1,6 +1,6 @@
 {
-  "name": "semver-webpack-plugin",
-  "version": "0.0.1",
+  "name": "@feizheng/semver-webpack-plugin",
+  "version": "1.0.0",
   "description": "Semver webpack plugin",
   "homepage": "https://github.com/afeiship/semver-webpack-plugin",
   "author": {
@@ -8,5 +8,8 @@
     "email": "1290657123@qq.com"
   },
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
 }
