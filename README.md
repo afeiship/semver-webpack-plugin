@@ -4,7 +4,7 @@
 
 ## install:
 ```shell
-npm install -D afeiship/semver-webpack-plugin
+npm install -D @feizheng/semver-webpack-plugin
 ```
 
 ## usage:
