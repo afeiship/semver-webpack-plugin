@@ -1,6 +1,6 @@
 {
   "name": "@feizheng/semver-webpack-plugin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Semver webpack plugin",
   "homepage": "https://github.com/afeiship/semver-webpack-plugin",
   "author": {

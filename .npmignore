@@ -6,3 +6,6 @@ test
 src
 build
 gulpfile.js
+
+.editorconfig
+.prettierrc

@@ -9,7 +9,7 @@ npm install -D @feizheng/semver-webpack-plugin
 
 ## usage:
 ```js
-import SemverWebpackPlugin from 'semver-webpack-plugin';
+import SemverWebpackPlugin from '@feizheng/semver-webpack-plugin';
 
 // plugins:
 plugiins:[
