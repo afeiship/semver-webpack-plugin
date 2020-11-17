@@ -2,14 +2,14 @@
 > Semver webpack plugin
 
 
-## install:
+## installation
 ```shell
-npm install -D @feizheng/semver-webpack-plugin
+npm install @jswork/semver-webpack-plugin
 ```
 
 ## usage:
 ```js
-import SemverWebpackPlugin from '@feizheng/semver-webpack-plugin';
+import SemverWebpackPlugin from '@jswork/semver-webpack-plugin';
 
 // plugins:
 plugiins:[
